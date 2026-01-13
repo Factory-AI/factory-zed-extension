@@ -1,0 +1,41 @@
+id = "factory-droid"
+name = "Factory Droid"
+version = "0.47.0"
+schema_version = 1
+description = "Factory Droid - AI coding agent powered by Factory AI"
+authors = ["Factory AI"]
+repository = "https://github.com/Factory-AI/factory-zed-extension"
+
+[agent_servers.Droid]
+name = "Factory Droid"
+icon = "droid-zed.svg"
+
+[agent_servers.Droid.targets.darwin-aarch64]
+archive = "https://downloads.factory.ai/factory-cli/releases/0.47.0/droid-darwin-aarch64.tar.gz"
+cmd = "./droid"
+args = ["exec", "--output-format", "acp"]
+sha256 = "926e43df6f8c090f1a66d506de04281a77be00a7fe9a4da03d4c69935a497254"
+
+[agent_servers.Droid.targets.darwin-x86_64]
+archive = "https://downloads.factory.ai/factory-cli/releases/0.47.0/droid-darwin-x86_64.tar.gz"
+cmd = "./droid"
+args = ["exec", "--output-format", "acp"]
+sha256 = "18135551de94395c81453e2f9fbf1d6aa26ab6f65dd937a105cb8614b4eb41eb"
+
+[agent_servers.Droid.targets.linux-x86_64]
+archive = "https://downloads.factory.ai/factory-cli/releases/0.47.0/droid-linux-x86_64.tar.gz"
+cmd = "./droid"
+args = ["exec", "--output-format", "acp"]
+sha256 = "aaade435cd6f614a282966df2007874bd090ac2496afd0e34392bc58978c09eb"
+
+[agent_servers.Droid.targets.linux-aarch64]
+archive = "https://downloads.factory.ai/factory-cli/releases/0.47.0/droid-linux-aarch64.tar.gz"
+cmd = "./droid"
+args = ["exec", "--output-format", "acp"]
+sha256 = "c9dc56b98337607cad88dbbd400a4c8e3e4422d79f11676c61a8e771a061ae16"
+
+[agent_servers.Droid.targets.windows-x86_64]
+archive = "https://downloads.factory.ai/factory-cli/releases/0.47.0/droid-windows-x86_64.zip"
+cmd = "./droid.exe"
+args = ["exec", "--output-format", "acp"]
+sha256 = "f3bb00e49b1dc423d913b90e55a498aefd10ff038e104b288e8d257cd69f5195"
