@@ -1,6 +1,6 @@
 id = "factory-droid"
 name = "Factory Droid"
-version = "0.52.0"
+version = "0.52.1"
 schema_version = 1
 description = "Factory Droid - AI coding agent powered by Factory AI"
 authors = ["Factory AI"]
