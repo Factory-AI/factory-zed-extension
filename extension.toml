@@ -10,6 +10,10 @@ repository = "https://github.com/Factory-AI/factory-zed-extension"
 name = "Factory Droid"
 icon = "droid-zed.svg"
 
+[agent_servers.Droid.env]
+DROID_DISABLE_AUTO_UPDATE = "true"
+FACTORY_DROID_AUTO_UPDATE_ENABLED = "false"
+
 [agent_servers.Droid.targets.darwin-aarch64]
 archive = "https://downloads.factory.ai/factory-cli/releases/0.52.0/droid-darwin-aarch64.tar.gz"
 cmd = "./droid"
