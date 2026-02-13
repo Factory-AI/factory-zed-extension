@@ -1,6 +1,6 @@
 id = "factory-droid"
 name = "Factory Droid"
-version = "0.57.12"
+version = "0.57.13"
 schema_version = 1
 description = "Factory Droid - AI coding agent powered by Factory AI"
 authors = ["Factory AI"]
@@ -15,31 +15,31 @@ DROID_DISABLE_AUTO_UPDATE = "true"
 FACTORY_DROID_AUTO_UPDATE_ENABLED = "false"
 
 [agent_servers.Droid.targets.darwin-aarch64]
-archive = "https://downloads.factory.ai/factory-cli/releases/0.57.12/droid-darwin-aarch64.tar.gz"
+archive = "https://downloads.factory.ai/factory-cli/releases/0.57.13/droid-darwin-aarch64.tar.gz"
 cmd = "./droid"
 args = ["exec", "--output-format", "acp"]
-sha256 = "7b5c401d2bf843b57561f9b5306d0343899d52884c3177664feae6a8f007977c"
+sha256 = "bd5eb3276c6faa0ffbd3f313d05db39f620fe26af105fd2d130d85621cfeed57"
 
 [agent_servers.Droid.targets.darwin-x86_64]
-archive = "https://downloads.factory.ai/factory-cli/releases/0.57.12/droid-darwin-x86_64.tar.gz"
+archive = "https://downloads.factory.ai/factory-cli/releases/0.57.13/droid-darwin-x86_64.tar.gz"
 cmd = "./droid"
 args = ["exec", "--output-format", "acp"]
-sha256 = "5386e6cc9ad5f28c6cc8dbf96a9ffc996307c5186ab4a5d63436694037c756f5"
+sha256 = "868f04e1449ae50bba17cdf45f8273eeea54c09be3280d81a7c73b827e07a3c6"
 
 [agent_servers.Droid.targets.linux-x86_64]
-archive = "https://downloads.factory.ai/factory-cli/releases/0.57.12/droid-linux-x86_64.tar.gz"
+archive = "https://downloads.factory.ai/factory-cli/releases/0.57.13/droid-linux-x86_64.tar.gz"
 cmd = "./droid"
 args = ["exec", "--output-format", "acp"]
-sha256 = "d8de1ec8ce9236a361a60e1fbf6d859c84a74b3a5cb03a5c9eaddab87039e8fc"
+sha256 = "9c67e1df3e9b90d5c125fe8b2bd1e464371a5fadbb476b374a0885da61ef64ed"
 
 [agent_servers.Droid.targets.linux-aarch64]
-archive = "https://downloads.factory.ai/factory-cli/releases/0.57.12/droid-linux-aarch64.tar.gz"
+archive = "https://downloads.factory.ai/factory-cli/releases/0.57.13/droid-linux-aarch64.tar.gz"
 cmd = "./droid"
 args = ["exec", "--output-format", "acp"]
-sha256 = "6cc74b130e55ae8597f483c8e2ce9fe0253f8cdb29476a0607a9ff77a90ecaa8"
+sha256 = "47cf55e5defc63f709e9717d6042d3f02bfc29b4f5c10a10a8fbdeae8e7a6616"
 
 [agent_servers.Droid.targets.windows-x86_64]
-archive = "https://downloads.factory.ai/factory-cli/releases/0.57.12/droid-windows-x86_64.zip"
+archive = "https://downloads.factory.ai/factory-cli/releases/0.57.13/droid-windows-x86_64.zip"
 cmd = "./droid.exe"
 args = ["exec", "--output-format", "acp"]
-sha256 = "633db9fb66e31cc069e3cd6b6c37275f83a61073d3b821065fef0c6d7fe98ddf"
+sha256 = "a2037a1f9297920bc6ac413ccb4326717df5dc10bacb0aa06829a5d74931f2c7"
